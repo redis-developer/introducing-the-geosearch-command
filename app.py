@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import jsonify
+from flask import render_template
 import redis
 from fastkml import kml
 
@@ -26,4 +27,4 @@ def search_by_box(latitude, longitude, box_width, box_height, box_unit):
 
 @app.route("/")
 def homepage():
-    return "TODO"
+    return render_template("homepage.html")
