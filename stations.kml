@@ -1,0 +1,741 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+	<Schema name="Station" id="Station">
+		<SimpleField name="altitudeMode" type="string"></SimpleField>
+		<SimpleField name="City" type="string"></SimpleField>
+		<SimpleField name="AssetType" type="string"></SimpleField>
+		<SimpleField name="Long" type="string"></SimpleField>
+		<SimpleField name="Street" type="string"></SimpleField>
+		<SimpleField name="FID" type="string"></SimpleField>
+		<SimpleField name="Lat" type="string"></SimpleField>
+		<SimpleField name="Field_1" type="string"></SimpleField>
+	</Schema>
+	<Placemark>
+	<name>Milpitas</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Milpitas</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-121.891081</SimpleData>
+		<SimpleData name="Street">S Milpitas Blvd</SimpleData>
+		<SimpleData name="FID">1</SimpleData>
+		<SimpleData name="Lat">37.410277</SimpleData>
+		<SimpleData name="Field_1">Milpitas</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-121.89109408408,37.4102823599611</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Berryessa/North San Jose</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Jose</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-121.874681</SimpleData>
+		<SimpleData name="Street">Berryessa Station Way</SimpleData>
+		<SimpleData name="FID">2</SimpleData>
+		<SimpleData name="Lat">37.368473</SimpleData>
+		<SimpleData name="Field_1">Berryessa/North San Jose</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-121.87469384313,37.3684782891037</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Civic Center/UN Plaza</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Francisco</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.413923</SimpleData>
+		<SimpleData name="Street">1150 Market Street</SimpleData>
+		<SimpleData name="FID">3</SimpleData>
+		<SimpleData name="Lat">37.779389</SimpleData>
+		<SimpleData name="Field_1">Civic Center/UN Plaza</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.413936415216,37.7793938607629</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Concord</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Concord</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.029049</SimpleData>
+		<SimpleData name="Street">1451 Oakland Ave</SimpleData>
+		<SimpleData name="FID">4</SimpleData>
+		<SimpleData name="Lat">37.97382</SimpleData>
+		<SimpleData name="Field_1">Concord</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.02906202247,37.9738249858712</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Colma</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Colma</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.46621</SimpleData>
+		<SimpleData name="Street">365 D Street</SimpleData>
+		<SimpleData name="FID">5</SimpleData>
+		<SimpleData name="Lat">37.684617</SimpleData>
+		<SimpleData name="Field_1">Colma</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.46622315595,37.6846216074975</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>El Cerrito Plaza</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">El Cerrito</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.298935</SimpleData>
+		<SimpleData name="Street">6699 Fairmount Ave</SimpleData>
+		<SimpleData name="FID">6</SimpleData>
+		<SimpleData name="Lat">37.90263</SimpleData>
+		<SimpleData name="Field_1">El Cerrito Plaza</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.298948407196,37.9026352265033</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Daly City</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Daly City</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.468899</SimpleData>
+		<SimpleData name="Street">500 John Daly Boulevard</SimpleData>
+		<SimpleData name="FID">7</SimpleData>
+		<SimpleData name="Lat">37.706328</SimpleData>
+		<SimpleData name="Field_1">Daly City</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.468911907166,37.7063332133776</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>North Concord/Martinez</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Concord</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.024539</SimpleData>
+		<SimpleData name="Street">3700 Port Chicago Highway</SimpleData>
+		<SimpleData name="FID">8</SimpleData>
+		<SimpleData name="Lat">38.00332</SimpleData>
+		<SimpleData name="Field_1">North Concord/Martinez</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.024552314249,38.0033245167978</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Fremont</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Fremont</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-121.976613</SimpleData>
+		<SimpleData name="Street">2000 Railway Way</SimpleData>
+		<SimpleData name="FID">9</SimpleData>
+		<SimpleData name="Lat">37.557469</SimpleData>
+		<SimpleData name="Field_1">Fremont</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-121.976626395132,37.5574744273506</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Glen Park</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Francisco</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.433777</SimpleData>
+		<SimpleData name="Street">2901 Diamond St</SimpleData>
+		<SimpleData name="FID">10</SimpleData>
+		<SimpleData name="Lat">37.733107</SimpleData>
+		<SimpleData name="Field_1">Glen Park</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.433790088383,37.7331123945196</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Hayward</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Hayward</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.086947</SimpleData>
+		<SimpleData name="Street">699 B Street</SimpleData>
+		<SimpleData name="FID">11</SimpleData>
+		<SimpleData name="Lat">37.669692</SimpleData>
+		<SimpleData name="Field_1">Hayward</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.086959953277,37.6696973835548</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>El Cerrito del Norte</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">El Cerrito</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.316902</SimpleData>
+		<SimpleData name="Street">6400 Cutting Boulevard</SimpleData>
+		<SimpleData name="FID">12</SimpleData>
+		<SimpleData name="Lat">37.925187</SimpleData>
+		<SimpleData name="Field_1">El Cerrito del Norte</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.316915121435,37.9251924167276</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Coliseum</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Oakland</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.196846</SimpleData>
+		<SimpleData name="Street">7200 San Leandro Street</SimpleData>
+		<SimpleData name="FID">13</SimpleData>
+		<SimpleData name="Lat">37.753684</SimpleData>
+		<SimpleData name="Field_1">Coliseum</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.196859213402,37.7536887473549</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Downtown Berkeley</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Berkeley</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.268146</SimpleData>
+		<SimpleData name="Street">2160 Shattuck Ave</SimpleData>
+		<SimpleData name="FID">14</SimpleData>
+		<SimpleData name="Lat">37.870311</SimpleData>
+		<SimpleData name="Field_1">Downtown Berkeley</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.268158819589,37.870316112485</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Bay Fair</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Leandro</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.126446</SimpleData>
+		<SimpleData name="Street">15242 Hesperian Boulevard</SimpleData>
+		<SimpleData name="FID">15</SimpleData>
+		<SimpleData name="Lat">37.696911</SimpleData>
+		<SimpleData name="Field_1">Bay Fair</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.126459629389,37.6969162033546</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Balboa Park</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Francisco</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.447574</SimpleData>
+		<SimpleData name="Street">401 Geneva Ave</SimpleData>
+		<SimpleData name="FID">16</SimpleData>
+		<SimpleData name="Lat">37.721346</SimpleData>
+		<SimpleData name="Field_1">Balboa Park</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.447587357492,37.7213505880275</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>San Bruno</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Bruno</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.416253</SimpleData>
+		<SimpleData name="Street">1151 Huntington Ave</SimpleData>
+		<SimpleData name="FID">17</SimpleData>
+		<SimpleData name="Lat">37.637699</SimpleData>
+		<SimpleData name="Field_1">San Bruno</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.416266663064,37.6377037426826</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>South Hayward</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Hayward</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.057184</SimpleData>
+		<SimpleData name="Street">28601 Dixon Street</SimpleData>
+		<SimpleData name="FID">18</SimpleData>
+		<SimpleData name="Lat">37.634346</SimpleData>
+		<SimpleData name="Field_1">South Hayward</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.057197308517,37.6343505701438</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Walnut Creek</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Walnut Creek</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.067316</SimpleData>
+		<SimpleData name="Street">200 Ygnacio Valley Road</SimpleData>
+		<SimpleData name="FID">19</SimpleData>
+		<SimpleData name="Lat">37.905809</SimpleData>
+		<SimpleData name="Field_1">Walnut Creek</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.067329382892,37.9058139331875</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>North Berkeley</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Berkeley</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.283531</SimpleData>
+		<SimpleData name="Street">1750 Sacramento St</SimpleData>
+		<SimpleData name="FID">20</SimpleData>
+		<SimpleData name="Lat">37.874005</SimpleData>
+		<SimpleData name="Field_1">North Berkeley</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.28354406055,37.874009755592</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Orinda</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Orinda</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.18374</SimpleData>
+		<SimpleData name="Street">11 Camino Pablo</SimpleData>
+		<SimpleData name="FID">21</SimpleData>
+		<SimpleData name="Lat">37.878426</SimpleData>
+		<SimpleData name="Field_1">Orinda</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.183753690205,37.8784313687661</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>West Oakland</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Oakland</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.295148</SimpleData>
+		<SimpleData name="Street">1451 7th Street</SimpleData>
+		<SimpleData name="FID">22</SimpleData>
+		<SimpleData name="Lat">37.804882</SimpleData>
+		<SimpleData name="Field_1">West Oakland</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.295160827597,37.8048870944074</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>San Leandro</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Leandro</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.160738</SimpleData>
+		<SimpleData name="Street">1401 San Leandro Blvd</SimpleData>
+		<SimpleData name="FID">23</SimpleData>
+		<SimpleData name="Lat">37.72178</SimpleData>
+		<SimpleData name="Field_1">San Leandro</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.160750696888,37.7217854135425</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>16th St/Mission</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Francisco</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.419695</SimpleData>
+		<SimpleData name="Street">2000 Mission St</SimpleData>
+		<SimpleData name="FID">24</SimpleData>
+		<SimpleData name="Lat">37.765049</SimpleData>
+		<SimpleData name="Field_1">16th St/Mission</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.41970814351,37.7650542393208</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>24th St/Mission</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Francisco</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.418455</SimpleData>
+		<SimpleData name="Street">2800 Mission St</SimpleData>
+		<SimpleData name="FID">25</SimpleData>
+		<SimpleData name="Lat">37.752227</SimpleData>
+		<SimpleData name="Field_1">24th St/Mission</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.418467876047,37.7522314516557</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>12th St/Oakland City Center</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Oakland</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.271663</SimpleData>
+		<SimpleData name="Street">1245 Broadway</SimpleData>
+		<SimpleData name="FID">26</SimpleData>
+		<SimpleData name="Lat">37.803585</SimpleData>
+		<SimpleData name="Field_1">12th St/Oakland City Center</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.271676045722,37.8035901647586</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Union City</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Union City</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.017243</SimpleData>
+		<SimpleData name="Street">10 Union Square</SimpleData>
+		<SimpleData name="FID">27</SimpleData>
+		<SimpleData name="Lat">37.590729</SimpleData>
+		<SimpleData name="Field_1">Union City</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.017256014002,37.5907343164698</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>West Dublin/Pleasanton</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Dublin</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-121.928064</SimpleData>
+		<SimpleData name="Street">6501 Golden Gate Drive</SimpleData>
+		<SimpleData name="FID">28</SimpleData>
+		<SimpleData name="Lat">37.699746</SimpleData>
+		<SimpleData name="Field_1">West Dublin/Pleasanton</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-121.928077098302,37.6997506992207</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Millbrae</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Millbrae</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.386837</SimpleData>
+		<SimpleData name="Street">200 N Rollins Rd</SimpleData>
+		<SimpleData name="FID">29</SimpleData>
+		<SimpleData name="Lat">37.600189</SimpleData>
+		<SimpleData name="Field_1">Millbrae</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.386850499254,37.6001940991036</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Montgomery St</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Francisco</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.401162</SimpleData>
+		<SimpleData name="Street">598 Market St</SimpleData>
+		<SimpleData name="FID">30</SimpleData>
+		<SimpleData name="Lat">37.789445</SimpleData>
+		<SimpleData name="Field_1">Montgomery St</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.401174710598,37.7894495203929</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Dublin/Pleasanton</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Pleasanton</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-121.899061</SimpleData>
+		<SimpleData name="Street">5801 Owens Drive</SimpleData>
+		<SimpleData name="FID">31</SimpleData>
+		<SimpleData name="Lat">37.701677</SimpleData>
+		<SimpleData name="Field_1">Dublin/Pleasanton</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-121.899073968031,37.7016817848902</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Lake Merritt</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Oakland</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.265214</SimpleData>
+		<SimpleData name="Street">800 Madison Street</SimpleData>
+		<SimpleData name="FID">32</SimpleData>
+		<SimpleData name="Lat">37.797288</SimpleData>
+		<SimpleData name="Field_1">Lake Merritt</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.26522683402,37.7972929525564</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Pleasant Hill/Contra Costa Centre</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Walnut Creek</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.055965</SimpleData>
+		<SimpleData name="Street">1365 Treat Blvd</SimpleData>
+		<SimpleData name="FID">33</SimpleData>
+		<SimpleData name="Lat">37.928437</SimpleData>
+		<SimpleData name="Field_1">Pleasant Hill/Contra Costa Centre</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.055978395909,37.9284417959691</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>MacArthur</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Oakland</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.26705</SimpleData>
+		<SimpleData name="Street">555 40th Street</SimpleData>
+		<SimpleData name="FID">34</SimpleData>
+		<SimpleData name="Lat">37.829078</SimpleData>
+		<SimpleData name="Field_1">MacArthur</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.267063488968,37.829083300728</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Powell St</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Francisco</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.407004</SimpleData>
+		<SimpleData name="Street">899 Market St</SimpleData>
+		<SimpleData name="FID">35</SimpleData>
+		<SimpleData name="Lat">37.784866</SimpleData>
+		<SimpleData name="Field_1">Powell St</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.407017658827,37.7848708966278</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Richmond</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Richmond</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.352963</SimpleData>
+		<SimpleData name="Street">1700 Nevin Ave</SimpleData>
+		<SimpleData name="FID">36</SimpleData>
+		<SimpleData name="Lat">37.936758</SimpleData>
+		<SimpleData name="Field_1">Richmond</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.352976551342,37.9367631254875</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Rockridge</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Oakland</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.251301</SimpleData>
+		<SimpleData name="Street">5660 College Avenue</SimpleData>
+		<SimpleData name="FID">37</SimpleData>
+		<SimpleData name="Lat">37.844734</SimpleData>
+		<SimpleData name="Field_1">Rockridge</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.251314633044,37.8447393101815</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>San Francisco International Airport</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Francisco International Airport</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.392401</SimpleData>
+		<SimpleData name="Street">497 North Link Rd Concourse H 3rd Level</SimpleData>
+		<SimpleData name="FID">38</SimpleData>
+		<SimpleData name="Lat">37.615993</SimpleData>
+		<SimpleData name="Field_1">San Francisco International Airport</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.392414075207,37.6159976796269</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Embarcadero</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">San Francisco</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.396888</SimpleData>
+		<SimpleData name="Street">298 Market St</SimpleData>
+		<SimpleData name="FID">39</SimpleData>
+		<SimpleData name="Lat">37.792849</SimpleData>
+		<SimpleData name="Field_1">Embarcadero</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.39690099434,37.7928539137256</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Pittsburg/Bay Point</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Bay Point</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-121.943967</SimpleData>
+		<SimpleData name="Street">1700 West Leland Road</SimpleData>
+		<SimpleData name="FID">40</SimpleData>
+		<SimpleData name="Lat">38.018909</SimpleData>
+		<SimpleData name="Field_1">Pittsburg/Bay Point</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-121.943980096383,38.0189141970878</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Castro Valley</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Castro Valley</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.075594</SimpleData>
+		<SimpleData name="Street">3301 Norbridge Ave</SimpleData>
+		<SimpleData name="FID">41</SimpleData>
+		<SimpleData name="Lat">37.690743</SimpleData>
+		<SimpleData name="Field_1">Castro Valley</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.07560669317,37.6907479760973</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Lafayette</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Lafayette</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.124634</SimpleData>
+		<SimpleData name="Street">3601 Deer Hill Road</SimpleData>
+		<SimpleData name="FID">42</SimpleData>
+		<SimpleData name="Lat">37.893181</SimpleData>
+		<SimpleData name="Field_1">Lafayette</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.12464733479,37.8931856833766</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>South San Francisco</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">South San Francisco</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.443964</SimpleData>
+		<SimpleData name="Street">1333 Mission Rd</SimpleData>
+		<SimpleData name="FID">43</SimpleData>
+		<SimpleData name="Lat">37.664206</SimpleData>
+		<SimpleData name="Field_1">South San Francisco</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.443977662761,37.6642105389004</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>19th St/Oakland</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Oakland</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.268641</SimpleData>
+		<SimpleData name="Street">1900 Broadway</SimpleData>
+		<SimpleData name="FID">44</SimpleData>
+		<SimpleData name="Lat">37.808488</SimpleData>
+		<SimpleData name="Field_1">19th St/Oakland</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.26865397324,37.8084932872478</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Ashby</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Berkeley</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.269981</SimpleData>
+		<SimpleData name="Street">3100 Adeline Street</SimpleData>
+		<SimpleData name="FID">45</SimpleData>
+		<SimpleData name="Lat">37.85257</SimpleData>
+		<SimpleData name="Field_1">Ashby</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.269993962748,37.852574650835</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Fruitvale</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Oakland</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.224166</SimpleData>
+		<SimpleData name="Street">3401 East 12th Street</SimpleData>
+		<SimpleData name="FID">46</SimpleData>
+		<SimpleData name="Lat">37.77489</SimpleData>
+		<SimpleData name="Field_1">Fruitvale</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.224179418194,37.7748944568355</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Oakland International Airport</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Oakland</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.212427</SimpleData>
+		<SimpleData name="Street">4 Airport Drive</SimpleData>
+		<SimpleData name="FID">47</SimpleData>
+		<SimpleData name="Lat">37.712967</SimpleData>
+		<SimpleData name="Field_1">Oakland International Airport</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.21244017124,37.7129718188202</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Warm Springs/South Fremont</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Fremont</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-121.93942</SimpleData>
+		<SimpleData name="Street">45193 Warm Springs Blvd</SimpleData>
+		<SimpleData name="FID">48</SimpleData>
+		<SimpleData name="Lat">37.50233</SimpleData>
+		<SimpleData name="Field_1">Warm Springs/South Fremont</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-121.939433028157,37.5023349701208</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Coliseum/Airport Connector</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Oakland</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-122.19617</SimpleData>
+		<SimpleData name="Street">7200 San Leandro Street</SimpleData>
+		<SimpleData name="FID">49</SimpleData>
+		<SimpleData name="Lat">37.7523</SimpleData>
+		<SimpleData name="Field_1">Coliseum/Airport Connector</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-122.196183018337,37.7523049650559</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Transfer Station</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Pittsburg</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-121.932804</SimpleData>
+		<SimpleData name="Street">600 Canal Road</SimpleData>
+		<SimpleData name="FID">50</SimpleData>
+		<SimpleData name="Lat">38.018932</SimpleData>
+		<SimpleData name="Field_1">Transfer Station</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-121.93281744729,38.0189366310124</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Antioch</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Antioch</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-121.78042</SimpleData>
+		<SimpleData name="Street">1600 Slatten Ranch Rd</SimpleData>
+		<SimpleData name="FID">51</SimpleData>
+		<SimpleData name="Lat">37.995388</SimpleData>
+		<SimpleData name="Field_1">Antioch</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-121.780433364526,37.9953927291261</coordinates></Point>
+	</Placemark>
+	<Placemark>
+	<name>Pittsburg Center</name>
+	<ExtendedData><SchemaData schemaUrl="#Station">
+		<SimpleData name="altitudeMode">clampToGround</SimpleData>
+		<SimpleData name="City">Pittsburg</SimpleData>
+		<SimpleData name="AssetType">Station</SimpleData>
+		<SimpleData name="Long">-121.889457</SimpleData>
+		<SimpleData name="Street">2099 Railroad Ave</SimpleData>
+		<SimpleData name="FID">52</SimpleData>
+		<SimpleData name="Lat">38.016941</SimpleData>
+		<SimpleData name="Field_1">Pittsburg Center</SimpleData>
+	</SchemaData></ExtendedData>
+		<Point><coordinates>-121.889470156125,38.0169460634226</coordinates></Point>
+	</Placemark>
+</Document></kml>
