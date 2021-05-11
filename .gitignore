@@ -4,3 +4,4 @@
 *.swp
 *.bak
 venv/
+__pycache__/
