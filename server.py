@@ -9,12 +9,12 @@ redis_client = redis.Redis(decode_responses = True)
 
 app = Flask(__name__)
 
-@app.route("/api/search/byradius")
-def search_by_radius():
+@app.route("/api/search/byradius/<latitude>/<longitude>/<radius>/<radius_unit>")
+def search_by_radius(latitude, longitude, radius, radius_unit):
     return "TODO"
 
-@app.route("/api/search/byrect")
-def search_by_rectangle():
+@app.route("/api/search/byrect/<latitude>/<longitude>/<box_width>/<box_height>/<box_unit>")
+def search_by_rectangle(latitude, longitude, box_width, box_height, box_unit):
     return "TODO"
 
 @app.route("/")
