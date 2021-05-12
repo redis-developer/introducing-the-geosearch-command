@@ -68,4 +68,26 @@ Now use your browser to go to `http://127.0.0.1:5000/` and you should see a map 
 
 ### Perform Sample Queries
 
-TODO
+The interface allows you to perform radius and box queries.  To being either type, first click on the map at the location you want the query to center on.  A red marker will appear, and the latitude and longitude fields in the form will populate:
+
+TODO SCREENSHOT
+
+For a radius query:
+
+* Select "Radius" from the drop down.
+* Enter your desired radius in miles (e.g. 5).
+* Click "Search".
+
+Results will appear on the map, and you can hover over each station to see its name:
+
+TODO SCREENSHOT
+
+For a box query:
+
+* Select "Box" from the drop down.
+* Enter your desired box height and width in miles.
+* Click "Search".
+
+Results appear in the same way as for a radius search:
+
+TODO SCREENSHOT
