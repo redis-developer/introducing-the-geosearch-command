@@ -97,6 +97,8 @@ window.onload = function () {
       // Box?
       const height = parseInt(document.getElementById('height').value);
       const width = parseInt(document.getElementById('width').value);
+
+      // TODO Draw the box on the map...
       
       if (lat && lng && height && width) {
         const response = await fetch(`/api/search/bybox/${lat}/${lng}/${width}/${height}/mi`);
