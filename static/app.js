@@ -80,6 +80,10 @@ window.onload = function () {
     e.preventDefault();
     removeExistingLayers();
 
+    const errorMessage = document.getElementById('errorMessage');
+
+    errorMessage.hidden = true;
+
     const lat = parseFloat(document.getElementById('latitude').value);
     const lng = parseFloat(document.getElementById('longitude').value);
     const radius = parseInt(document.getElementById('radius').value);
@@ -97,15 +101,28 @@ window.onload = function () {
       // Box?
       const height = parseInt(document.getElementById('height').value);
       const width = parseInt(document.getElementById('width').value);
-
-      // TODO Draw the box on the map...
       
       if (lat && lng && height && width) {
+        const heightInMeters = milesToMeters(height);
+        const widthInMeters = milesToMeters(width);
+        const centerLatLng = L.latLng(lat, lng);
+        const heightBounds = centerLatLng.toBounds(heightInMeters);
+        const widthBounds = centerLatLng.toBounds(widthInMeters);
+        const firstNW = heightBounds.getNorthWest();
+        const secondNW = widthBounds.getNorthWest();
+        const firstSE = heightBounds.getSouthEast();
+        const secondSE = widthBounds.getSouthEast();
+
+        const rectNW = L.latLng(firstNW.lat, secondNW.lng);
+        const rectSE = L.latLng(firstSE.lat, secondSE.lng);
+
+        userShape = L.rectangle(L.latLngBounds(rectNW, rectSE)).addTo(myMap);
+
         const response = await fetch(`/api/search/bybox/${lat}/${lng}/${width}/${height}/mi`);
         const stations = await response.json();
         stations.map(addStationMarker);
       } else {
-        document.getElementById('errorMessage').hidden = false;
+        errorMessage.hidden = false;
       }
     }
   };
