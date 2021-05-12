@@ -1,6 +1,12 @@
 # Introducing the GEOSEARCH Command
 
-TODO...
+This is the demo application to accompany the "Introducing the GEOSEARCH Command" video on YouTube.
+
+It's a small Python/[Flask](https://flask.palletsprojects.com/) application that uses the [Bulma](https://bulma.io/) CSS framework and [Leaflet](https://leafletjs.com/) maps in the front end.  The front end is built with vanilla JavaScript, so no build step is required :)
+
+`GEOSEARCH` is a new command added in Redis 6.2 For more information, check out its [documentation at redis.io](https://redis.io/commands/geosearch).
+
+This application demonstrates how to use `GEOSEARCH` as a replacement for the `GEORADIUS` command, and how to use the new box search functionality.
 
 ## Setup
 
