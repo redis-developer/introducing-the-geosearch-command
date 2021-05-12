@@ -80,7 +80,7 @@ For a radius query:
 
 Results will appear on the map, and you can hover over each station to see its name:
 
-![Setting the Search Center](screenshots/radius_results.png "Search Results: Radius Search")
+![Search Results: Radius Search](screenshots/radius_results.png "Search Results: Radius Search")
 
 For a box query:
 
@@ -90,4 +90,4 @@ For a box query:
 
 Results appear in the same way as for a radius search:
 
-TODO SCREENSHOT
+![Search Results: Box Search](screenshots/box_results.png "Search Results: Box Search")
