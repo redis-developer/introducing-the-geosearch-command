@@ -62,7 +62,9 @@ The application is a Python / Flask application that listens on port 5000.  Star
  * Debugger PIN: 202-259-673
 ```
 
-Now use your browser to go to `http://127.0.0.1:5000/` and you should see a map of the San Francisco Bay area.
+Now use your browser to go to `http://127.0.0.1:5000/` and you should see a map of the San Francisco Bay area:
+
+![Initial Map View](screenshots/initial_map.png "Initial Map View")
 
 ### Perform Sample Queries
 
