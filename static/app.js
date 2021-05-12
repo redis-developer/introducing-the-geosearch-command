@@ -1,5 +1,10 @@
 window.onload = function () {
+  const milesToMeters = (miles) => {
+    return 1609.344 * miles;
+  };
+
   let userMarker;
+  let userShape;
 
   const myMap = L.map('mapid', {zoomControl: false, doubleClickZoom: false, touchZoom: false, scrollWheelZoom: false, dragging: false}).setView([37.6570598, -122.2636107], 10);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -11,6 +16,11 @@ window.onload = function () {
     if (userMarker) {
       myMap.removeLayer(userMarker);
     }
+
+    if (userShape) {
+      myMap.removeLayer(userShape);
+    }
+    
     userMarker = L.marker(e.latlng).addTo(myMap);
 
     const { lat, lng } = e.latlng;
@@ -38,11 +48,14 @@ window.onload = function () {
 
   document.getElementById('searchBtn').onclick = function (e) {
     e.preventDefault();
-    const lat = document.getElementById('latitude').value;
-    const lng = document.getElementById('longitude').value;
-    const radius = document.getElementById('radius').value;
+    const lat = parseFloat(document.getElementById('latitude').value);
+    const lng = parseFloat(document.getElementById('longitude').value);
+    const radius = parseInt(document.getElementById('radius').value);
 
-    if ('' !== lat && '' !== lng & '' !== radius) {
+    if (lat && lng && radius) {
+      // Draw the radius circle on the map...
+      const radiusInMeters = milesToMeters(radius);
+      userShape = L.circle([lat, lng], {radius: radiusInMeters}).addTo(myMap);
       // TODO call the backend!!
     } else {
       alert('Please complete the form!');
