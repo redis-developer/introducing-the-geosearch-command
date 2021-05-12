@@ -70,7 +70,7 @@ Now use your browser to go to `http://127.0.0.1:5000/` and you should see a map 
 
 The interface allows you to perform radius and box queries.  To being either type, first click on the map at the location you want the query to center on.  A red marker will appear, and the latitude and longitude fields in the form will populate:
 
-TODO SCREENSHOT
+![Setting the Search Center](screenshots/red_marker.png "Setting the Search Center")
 
 For a radius query:
 
@@ -80,7 +80,7 @@ For a radius query:
 
 Results will appear on the map, and you can hover over each station to see its name:
 
-TODO SCREENSHOT
+![Setting the Search Center](screenshots/radius_results.png "Search Results: Radius Search")
 
 For a box query:
 
