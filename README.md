@@ -8,6 +8,8 @@ It's a small Python/[Flask](https://flask.palletsprojects.com/) application that
 
 This application demonstrates how to use `GEOSEARCH` as a replacement for the `GEORADIUS` command, and how to use the new box search functionality.
 
+Want more Redis content?  Subscribe to our [YouTube channel](https://youtube.com/redislabs) for regular uploads!
+
 ## Setup
 
 To run this example, you'll need Docker (for Redis 6.2) and Python 3 to run the Flask backend.  First, clone the repo:
