@@ -1,6 +1,6 @@
 # Introducing the GEOSEARCH Command
 
-This is the demo application to accompany the Head in the Corner video on YouTube.
+This is the demo application to accompany the [Head in the Corner video on YouTube](https://www.youtube.com/watch?v=ZmzuIsWwAzM).
 
 It's a small Python/[Flask](https://flask.palletsprojects.com/) application that uses the [Bulma](https://bulma.io/) CSS framework and [Leaflet](https://leafletjs.com/) maps in the front end.  The front end is built with vanilla JavaScript, so no build step is required :)
 
