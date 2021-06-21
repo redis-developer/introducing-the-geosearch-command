@@ -1,0 +1,25 @@
+{
+    "app_name": "Redis 6.2 Rail Station Finder",
+    "description": "Redis 6.2 GEOSEARCH command demo with Flask, Leaflet maps and Bulma.",
+    "hidden": "true",
+    "rank": "99",
+    "type": "Full App",
+    "contributed_by": "Redis Labs",
+    "repo_url": "https://github.com/redis-developer/introducing-the-geosearch-command",
+    "download_url": "https://github.com/redis-developer/introducing-the-geosearch-command/archive/refs/heads/main.zip",
+    "hosted_url": "",
+    "quick_deploy": "false",
+    "deploy_buttons": [],
+    "language": ["Python", "Flask", "JavaScript"],
+    "redis_commands": ["GEOSEARCH", "GEOADD"],
+    "redis_features": ["geo"],
+    "redis_modules": [],
+    "app_image_urls": [
+        "https://raw.githubusercontent.com/redis-developer/introducing-the-geosearch-command/main/screenshots/radius_results.png",
+        "https://raw.githubusercontent.com/redis-developer/introducing-the-geosearch-command/main/screenshots/box_results.png"
+    ],
+    "youtube_url": "https://www.youtube.com/watch?v=ZmzuIsWwAzM",
+    "special_tags": [],
+    "verticals": ["Retail"],
+    "markdown": "https://raw.githubusercontent.com/redis-developer/introducing-the-geosearch-command/main/README.md"
+}
