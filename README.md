@@ -8,7 +8,7 @@ It's a small Python/[Flask](https://flask.palletsprojects.com/) application that
 
 This application demonstrates how to use `GEOSEARCH` as a replacement for the `GEORADIUS` command, and how to use the new box search functionality.
 
-Want more Redis content?  Subscribe to our [YouTube channel](https://youtube.com/redislabs) for regular uploads!
+Want more Redis content?  Subscribe to our [YouTube channel](https://youtube.com/redisinc) for regular uploads!
 
 ## Setup
 
