@@ -12,18 +12,20 @@ Want more Redis content?  Subscribe to our [YouTube channel](https://youtube.com
 
 ## Optional Docker Compose Setup 
 
-You can run both the flask application and redis using [Docker Compose](https://docs.docker.com/compose/):
+You can run both the Flask application and Redis using [Docker Compose](https://docs.docker.com/compose/):
 
 ```bash
 $ docker-compose up
 ```
 
-To [load the sample data](#load-the-sample-data) in this docker environment, run
+To [load the sample data](#load-the-sample-data) in this Docker environment, run
 the following in a second terminal instance:
 
 ```bash
 $ docker-compose exec app python load_stations.py
 ```
+
+Then view the application by pointing your browser at `http://localhost:5000`.
 
 ## Setup
 
