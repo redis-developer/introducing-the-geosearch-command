@@ -1,9 +1,12 @@
 import redis
+import os
+
 from fastkml import kml
 
 STATIONS_KEY = "stations"
 
-redis_client = redis.Redis(decode_responses = True)
+redis_client = redis.Redis(host = os.environ.get("REDIS_HOST",
+    default="localhost"), decode_responses = True)
 
 doc = open("stations.kml", "r").read()
 stations_kml = kml.KML()
