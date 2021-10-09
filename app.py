@@ -1,12 +1,15 @@
+import redis
+import os
+
 from flask import Flask
 from flask import jsonify
 from flask import render_template
-import redis
 from fastkml import kml
 
 STATIONS_KEY = "stations"
 
-redis_client = redis.Redis(decode_responses = True)
+redis_client = redis.Redis(host = os.environ.get("REDIS_HOST",
+    default="localhost"), decode_responses = True)
 
 app = Flask(__name__)
 

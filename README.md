@@ -10,7 +10,24 @@ This application demonstrates how to use `GEOSEARCH` as a replacement for the `G
 
 Want more Redis content?  Subscribe to our [YouTube channel](https://youtube.com/redisinc) for regular uploads!
 
+## Optional Docker Compose Setup 
+
+You can run both the flask application and redis using [Docker Compose](https://docs.docker.com/compose/):
+
+```bash
+$ docker-compose up
+```
+
+To [load the sample data](#load-the-sample-data) in this docker environment, run
+the following in a second terminal instance:
+
+```bash
+$ docker-compose exec app python load_stations.py
+```
+
 ## Setup
+
+(If you are using the Docker Compose setup, skip this section).
 
 To run this example, you'll need Docker (for Redis 6.2) and Python 3 to run the Flask backend.  First, clone the repo:
 
@@ -21,16 +38,19 @@ $ cd introducing-the-geosearch-command
 
 ### Starting Redis 6.2
 
-Next, start up a Redis 6.2 instance using the provided `docker-compose.yml`:
+(If you chose to use docker-compose for both services, you are safe to move on).  
+
+To start Redis 6.2 (separately from the flask application), you can run:
 
 ```bash
-$ docker-compose up -d
-Starting redis62_geosearch ... done
+$ docker-compose up -d redis
 ```
 
 This will use port 6379, so if you have another instance of Redis on that port, you'll need to stop that first.
 
 ### Creating a Python Virtual Environment and Installing Dependencies
+
+(If you are using Docker Compose, skip this section).
 
 The backend and data loader use Python 3.  Create and activate a virtual environment, and install the dependencies:
 
@@ -51,6 +71,8 @@ Loaded 52 stations.
 
 ### Start the Application
 
+(If you are using Docker Compose, skip this section).
+
 The application is a Python / Flask application that listens on port 5000.  Start it as follows:
 
 ```bash
@@ -64,11 +86,13 @@ The application is a Python / Flask application that listens on port 5000.  Star
  * Debugger PIN: 202-259-673
 ```
 
+### Usage
+
 Now use your browser to go to `http://127.0.0.1:5000/` and you should see a map of the San Francisco Bay area:
 
 ![Initial Map View](screenshots/initial_map.png "Initial Map View")
 
-### Perform Sample Queries
+#### Perform Sample Queries
 
 The interface allows you to perform radius and box queries.  To being either type, first click on the map at the location you want the query to center on.  A red marker will appear, and the latitude and longitude fields in the form will populate:
 
