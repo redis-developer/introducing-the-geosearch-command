@@ -19,6 +19,12 @@ pipeline = redis_client.pipeline(transaction=False)
 pipeline.delete(STATIONS_KEY)
 
 for station in stations:
+    extended_data = station.extended_data
+    sd = extended_data.elements[0]
+    station_data = {x["name"]: x["value"] for x in sd.data}
+
+    station_key = f"station:{str(station.name).lower()}"
+    pipeline.hmset(station_key, station_data)
     pipeline.geoadd(STATIONS_KEY, station.geometry.x, station.geometry.y, station.name)
 
 pipeline.zcard(STATIONS_KEY)
