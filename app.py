@@ -49,7 +49,7 @@ def search_by_station_name(station_name):
     return jsonify({"name": station_name, "location": {"latitude": latitude, "longitude": longitude}})
 
 @app.route("/api/distance/<first_station_name>/<second_station_name>/<distance_unit>")
-def compute_distance(first_station_name: str,second_station_name: str,distance_unit: str):
+def compute_distance(first_station_name: str,second_station_name: str,distance_unit: str="km"):
     first_station = redis_client.geopos(STATIONS_KEY, first_station_name)
     if not first_station:
         raise ResourceNotFound(message=f"Station named {first_station_name} not found")
@@ -59,7 +59,7 @@ def compute_distance(first_station_name: str,second_station_name: str,distance_u
     if distance_unit not in ["m","km","mi","ft"]:
         return jsonify({"message": f"Invalid unit provided {distance_unit}"})
     try:
-        distance = redis_client.execute_command(f"geodist {STATIONS_KEY} {first_station_name} {second_station_name} {distance_unit}")
+        distance = redis_client.geodist(STATIONS_KEY, first_station_name, second_station_name, distance_unit)
         return jsonify({"first station": first_station_name, "second station": second_station_name, "units": distance_unit, "distance": distance})
     except Exception as e:
         raise ResourceNotFound(message=f"Error Occured {e}")
