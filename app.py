@@ -13,6 +13,17 @@ redis_client = redis.Redis(host = os.environ.get("REDIS_HOST",
 
 app = Flask(__name__)
 
+class ResourceNotFound(Exception):
+
+    def __init__(self, message):
+        super().__init__()
+        self.detail = message
+        self.code = 404
+        self.title = "Not found"
+
+    def to_dict(self):
+        return self.__dict__
+
 def transform_geosearch_response(response):
     return [{"name": item[0], "location": { "latitude": item[1][1], "longitude": item[1][0]}} for item in response]
 
@@ -37,16 +48,21 @@ def search_by_station_name(station_name):
     latitude, longitude = station
     return jsonify({"name": station_name, "location": {"latitude": latitude, "longitude": longitude}})
 
-class ResourceNotFound(Exception):
-
-    def __init__(self, message):
-        super().__init__()
-        self.detail = message
-        self.code = 404
-        self.title = "Not found"
-
-    def to_dict(self):
-        return self.__dict__
+@app.route("/api/distance/<first_station_name>/<second_station_name>/<distance_unit>")
+def compute_distance(first_station_name: str,second_station_name: str,distance_unit: str="km"):
+    first_station = redis_client.geopos(STATIONS_KEY, first_station_name)
+    if not first_station:
+        raise ResourceNotFound(message=f"Station named {first_station_name} not found")
+    second_station = redis_client.geopos(STATIONS_KEY, second_station_name)
+    if not second_station:
+        raise ResourceNotFound(message=f"Station named {first_station_name} not found")
+    if distance_unit not in ["m","km","mi","ft"]:
+        return jsonify({"message": f"Invalid unit provided {distance_unit}"})
+    try:
+        distance = redis_client.geodist(STATIONS_KEY, first_station_name, second_station_name, distance_unit)
+        return jsonify({"first station": first_station_name, "second station": second_station_name, "units": distance_unit, "distance": distance})
+    except Exception as e:
+        raise ResourceNotFound(message=f"Error Occured {e}")
 
 @app.errorhandler(ResourceNotFound)
 def resource_not_found(e):
