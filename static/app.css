@@ -1,1 +1,16 @@
-#mapid { height: 600px; }
+.header-section {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-evenly;
+}
+#mapid {
+  height: 600px;
+  margin-top: 1rem;
+}
+
+#form-control {
+  border: 0.1rem solid #5f5f5f;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 1px 8px #a5050563;
+}

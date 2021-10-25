@@ -14,14 +14,18 @@
     </head>
 
     <body>
-        <section class="section">
-        <h1 class="title is-4">Redis 6.2 GEOSEARCH Example (click map to start)</h1>
+        <header class="container is-fluid  mt-4 header-section">
+            <img src="../static/redis-favicon-48x48.png" alt="Redis Logo" class="logo" height="48" width="48">
+            <h1 class="title is-4 is-right pd-0 mt-2">Redis 6.2 GEOSEARCH Example (click map to start)</h1>
+        </header>
+        <main class="section">
         <div class="notification is-danger" id="errorMessage" hidden>
             <button class="delete" id="dismissError"></button>
             Please click on the map to set lat/long then choose radius or box and enter a radius or box height and width!
           </div>
-        <div class="field is-horizontal">
-            <div class="field-body">
+        <div id="form-control">
+        <div class="field is-horizontal test form-border">
+            <form class="field-body ">
                 <div class="field">
                     <p class="control is-expanded">
                         <input class="input" type="text" placeholder="latitude" id="latitude" readonly>
@@ -57,15 +61,28 @@
                 </div>
                 <div class="field">
                     <div class="control">
-                        <button class="button is-primary" id="searchBtn">
+                        <button class="button is-primary" id="searchBtn" role="button">
                             Search
                         </button>
                     </div>
                 </div>
-            </div>
+            </form>
+        </div>
         </div>
         <div id="mapid"></div>
-    </section>
+    </main>
+        <footer class="box is-centered">
+           <h3 class="is-size-3 mb-2">Resources</h3>
+           <div class="block ">
+               <a href="https://university.redis.com"  target="_blank" rel="noopener ">Learn More At Redis University</a>
+           </div>
+           <div class="block">
+               <a href="https  ://https://github.com/redis-developer/introducing-the-geosearch-command/" target="_blank" rel="noopener ">Check Out The Source Code on GitHub</a>
+           </div>
+           <div class="block">
+               <a href="https://redis.io/commands/geosearch" target="_blank" rel="noopener ">Head Over To The Redis GEOSEARCH Command Page</a>
+           </div>
+        </footer>
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
             crossorigin=""></script>
