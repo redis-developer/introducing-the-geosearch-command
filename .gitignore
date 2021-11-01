@@ -3,5 +3,5 @@
 *.log
 *.swp
 *.bak
-venv/
+*venv/
 __pycache__/

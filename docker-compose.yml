@@ -14,7 +14,7 @@ services:
 
   redis:
     container_name: redis62_geosearch
-    image: "redis:6.2.1-alpine"
+    image: "redislabs/redisearch:latest"
     ports:
       - 6379:6379
     deploy:
