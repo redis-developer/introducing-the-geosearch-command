@@ -4,7 +4,7 @@
     "type": "Full App",
     "contributed_by": "Redis Labs",
     "repo_url": "https://github.com/redis-developer/introducing-the-geosearch-command",
-    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/introducing-the-geosearch-command/master/images/app_preview_image.png",
+    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/introducing-the-geosearch-command/master/images/rail.png",
     "download_url": "https://github.com/redis-developer/introducing-the-geosearch-command/archive/refs/heads/main.zip",
     "hosted_url": "",
     "quick_deploy": "false",
