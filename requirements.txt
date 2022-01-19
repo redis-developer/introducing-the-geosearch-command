@@ -3,7 +3,7 @@ fastkml==0.11
 Flask==2.0.0
 itsdangerous==2.0.0
 Jinja2==3.0.0
-lxml==4.6.3
+lxml==4.6.5
 MarkupSafe==2.0.0
 pygeoif==0.7
 python-dateutil==2.8.1
