@@ -1,16 +1,18 @@
-# Introducing the GEOSEARCH Command
+# Rail Station Finder
 
-This is the demo application to accompany the [Head in the Corner video on YouTube](https://www.youtube.com/watch?v=ZmzuIsWwAzM).
+Rail Station Finder is a small Python/[Flask](https://flask.palletsprojects.com/) application that uses the [Bulma](https://bulma.io/) CSS framework and [Leaflet](https://leafletjs.com/) maps in the front end.  The front end is built with vanilla JavaScript, so no build step is required :)
 
-It's a small Python/[Flask](https://flask.palletsprojects.com/) application that uses the [Bulma](https://bulma.io/) CSS framework and [Leaflet](https://leafletjs.com/) maps in the front end.  The front end is built with vanilla JavaScript, so no build step is required :)
 
-`GEOSEARCH` is a new command added in Redis 6.2 For more information, check out its [documentation at redis.io](https://redis.io/commands/geosearch).
+This is the demo application to accompany the [Head in the Corner video on YouTube](https://www.youtube.com/watch?v=ZmzuIsWwAzM). 
+
+
+The application is based on the new `GEOSEARCH` command introduced for the first time in Redis 6.2. For more information, check out its [documentation at redis.io](https://redis.io/commands/geosearch).
 
 This application demonstrates how to use `GEOSEARCH` as a replacement for the `GEORADIUS` command, and how to use the new box search functionality.
 
 Want more Redis content?  Subscribe to our [YouTube channel](https://youtube.com/redisinc) for regular uploads!
 
-## Optional Docker Compose Setup 
+## [Optional] Docker Compose Setup 
 
 You can run both the Flask application and Redis using [Docker Compose](https://docs.docker.com/compose/):
 
