@@ -48,8 +48,8 @@ window.onload = function () {
 
     const { lat, lng } = e.latlng;
 
-    document.getElementById('latitude').value = lat;
-    document.getElementById('longitude').value = lng;
+    document.getElementById('latitude').innerHTML = lat;
+    document.getElementById('longitude').innerHTML = lng;
   });
 
   document.getElementById('searchType').onchange = function (e) {
@@ -84,8 +84,8 @@ window.onload = function () {
 
     errorMessage.hidden = true;
 
-    const lat = parseFloat(document.getElementById('latitude').value);
-    const lng = parseFloat(document.getElementById('longitude').value);
+    const lat = parseFloat(document.getElementById('latitude').innerHTML);
+    const lng = parseFloat(document.getElementById('longitude').innerHTML);
     const radius = parseInt(document.getElementById('radius').value);
 
     if (lat && lng && radius) {
