@@ -110,7 +110,7 @@ For a radius query:
 
 Results will appear on the map, and you can hover over each station to see its name:
 
-![Search Results: Radius Search](https://raw.githubusercontent.com/redis-developer/introducing-the-geosearch-command/master/screenshots/radius_results.png "Search Results: Radius Search")
+![Search Results: Radius Search](screenshots/radius_results.png "Search Results: Radius Search")
 
 For a box query:
 
@@ -120,4 +120,4 @@ For a box query:
 
 Results appear in the same way as for a radius search:
 
-![Search Results: Box Search](https://raw.githubusercontent.com/redis-developer/introducing-the-geosearch-command/master/screenshots/box_results.png "Search Results: Box Search")
+![Search Results: Box Search](screenshots/box_results.png "Search Results: Box Search")
