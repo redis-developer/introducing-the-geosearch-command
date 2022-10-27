@@ -36,7 +36,7 @@ for station in stations:
     station_data = {x["name"]: x["value"] for x in sd.data}
 
     station_key = f"station:{str(station.name).lower()}"
-    pipeline.hmset(station_key, station_data)
+    pipeline.hset(station_key, mapping=station_data)
     pipeline.geoadd(STATIONS_KEY, station.geometry.x,
                     station.geometry.y, station.name)
 
